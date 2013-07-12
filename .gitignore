@@ -33,3 +33,24 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+
+# Images lololol
+*.jpg
+*.jpeg
+*.jpe
+*.png
+*.gif
+
+# Other
+*.key
+.DS_Store
+*.mid
+*.md
+matrix_code_nfi.zip
+midicsv-1.1
+matrix_code_nfi
+midicsv-1.1.tar.gz
+GENOCIDE.TXT
+
+

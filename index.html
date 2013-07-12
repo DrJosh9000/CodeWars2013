@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to glorious home page!</title>
+    <style>
+	body {
+	    font-family: "Comic Sans MS", "Chalkboard";
+	    background-image: url('/media/cw2013/bg.jpeg');
+	    color:white;
+	}
+	</style>
+</head>
+<body>
+	<p align='right'>
+		<a href='/leaderboard'><img src='/media/cw2013/pi.png'/></a>
+	</p>
+	<center>
+    <h1>Welcome to my home page!</h1>
+    <marquee><h3 style='color:red'><img src='/media/cw2013/hot.gif' />Hello, welcome!<img src='/media/cw2013/hot.gif' /></h3></marquee>
+	THIS SITE is ALWAYS.............<br/>
+	<img src='/media/cw2013/underconstruction.gif' />
+
+	<table border=5>
+		<tr>
+			<th>
+				<img src='/media/cw2013/genie.gif' />
+				<img src='/media/cw2013/Bill_Gates.gif' />
+				<img src='/media/cw2013/computer-01.gif' />
+			</th>
+		</tr>
+		
+	</table>
+	
+{% for round in rounds %}
+{% if round.gogo %}
+	<blink><h2><a href='{{ round.url }}' style='color:red'>totally legit {{ round.name|upper }} PORBLEM</a></h2></blink>
+{% endif %}
+{% endfor %}
+
+	<br/>
+	
+	<img src='/media/cw2013/underconstruction4.gif' /> <img src='/media/cw2013/underconstruction2.gif' /><img src='/media/cw2013/underconstruction4.gif' /><br />
+	
+	<a href='http://www.netscape.com/'><img src='/media/cw2013/ns_logo.gif' /></a>
+	<a href='http://www.microsoft.com/download/ie.aspx'><img src='/media/cw2013/ie_logo.gif' /></a>
+	<img src='/media/cw2013/noframes.gif' />
+	<img src='/media/cw2013/notepad.gif' />
+	<br/><a href='/credits' style='font-size:4px'>Credits</a>
+</center>
+</body>
+</html>
